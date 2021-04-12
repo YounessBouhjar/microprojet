@@ -12,24 +12,24 @@
 <div class="w-50 mt-5 d-flex justify-content-center">
 	
 	<form  method="GET" action="AjouterAuPanier">
-		<div class="d-flex justify-content-around mb-5 ">
-			<div>
-				<label class="d-flex " for="codeArticle">Code Article :</label></br>
-				<label class="d-flex " for="designation">Designation:</label></br>
-				<label class="d-flex " for="prix">Prix :</label></br>
-				<label class="d-flex " for="categorie">Categorie :</label></br>
-				<label class="d-flex " for="stock">En Stock :</label></br>
-				<label class="d-flex " for="quantite">Combien voulez-vous :</label>
-			</div>
-			<div>
-		  		<input class="d-flex " type="text" value="${article.codeArticle}" name="param" readonly></br>
-		 		 <input class="d-flex "type="text" value="${article.designation}" readonly></br>
-		 		 <input class="d-flex "type="text" value="${article.prix}" readonly></br>
-		  		 <input class="d-flex "type="text" value="${article.categorie.categorie}" readonly></br>
-				 <input class="d-flex "type="text" value="${article.stock}" readonly> </br>
-				 <input class="d-flex "type="text" name="quantite"></br>
-			 </div>
-	  	</div>
+							<div class="d-flex justify-content-around mb-5 ">
+								<div>
+									<label class="d-flex " for="codeArticle">Code Article :</label></br>
+									<label class="d-flex " for="designation">Designation:</label></br>
+									<label class="d-flex " for="prix">Prix :</label></br>
+									<label class="d-flex " for="categorie">Categorie :</label></br>
+									<label class="d-flex " for="stock">En Stock :</label></br>
+									<label class="d-flex " for="quantite">Combien voulez-vous :</label>
+								</div>
+								<div>
+							  		<input class="d-flex " type="text" value="${article.codeArticle}" name="param" readonly></br>
+							 		 <input class="d-flex mb-2"type="text" value="${article.designation}" readonly></br>
+							 		 <input class="d-flex  mb-2"type="text" value="${article.prix}" readonly></br>
+							  		 <input class="d-flex "type="text" value="${article.categorie.categorie}" readonly></br>
+									 <input class="d-flex "type="text" value="${article.stock}" readonly> </br>
+									 <input class="d-flex "type="text" name="quantite"></br>
+								 </div>
+						  	</div>
 	  	<div class="d-flex justify-content-around mt-5 mb-5">
 		<input  class="btn btn-primary d-flex justify-content-around" type="Submit" value="Ajouter au panier" >
 	</div>

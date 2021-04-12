@@ -9,11 +9,19 @@
 </head>
 <body>
 	<form action="ConfirmerConnexion" method="POST">
-		  <label for="email">Email:</label>
-		  		<input type="text" id="email" name="email"><br>
-		  <label for="motdepasse">Password:</label>
-		  		<input type="password" id="motdepsse" name="motdepasse">
-		  <input type="submit" value="s'identifier">
+	<div class=" d-flex justify-content-center mt-5">
+		 <div class="mt-5">
+			  <label class="d-flex "for="email">Email:</label><br>
+			  <label class="d-flex "for="motdepasse">Password:</label><br>
+		 </div>
+		 <div class="mt-5">
+			  	<input class="d-flex ml-5" type="text" id="email" name="email"><br>
+			  	<input class="d-flex ml-5"type="password" id="motdepsse" name="motdepasse"><br>
+		 </div>
+	</div>
+	<div class="d-flex justify-content-around mt-5 mb-5">
+		  <input class="btn btn-primary d-flex justify-content-around" type="submit" value="s'identifier">
+	</div>
 	</form> 
 </body>
 </html>

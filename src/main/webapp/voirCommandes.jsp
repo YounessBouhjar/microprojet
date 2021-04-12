@@ -10,9 +10,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-<p style="display:inline;"> Bonjour mr ${sessionScope.utilisateur.nom} ${sessionScope.utilisateur.prenom} </p>
+<div class="d-flex justify-content-center mt-5"><h1> Bonjour mr ${sessionScope.utilisateur.nom} ${sessionScope.utilisateur.prenom}</h1> </div>
 <c:if test="${!empty utilisateur.achats}">
-<table class="table table-bordered">
+<table class="table table-bordered mt-5">
   <tr>
     <th>Code Article</th>
     <th>Designation</th>

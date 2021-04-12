@@ -10,11 +10,12 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-
+<div class="d-flex justify-content-center mt-5">
 	<h1> Bonjour mr ${sessionScope.utilisateur.nom} ${sessionScope.utilisateur.prenom} </h1>
-	<p><a href="GenererTable">Consulter catalogue.</a></p>
-	<p><a href="VoirPanier">Consulter votre panier.</a>.</p>
-	<p><a href="AfficherCommandes">Consulter vos commandes.</a>
+</div>
+	<div class="d-flex justify-content-center mt-5"><a href="GenererTable">Consulter catalogue.</a></p></div>
+	<div class="d-flex justify-content-center mt-5"><a href="VoirPanier">Consulter votre panier.</a>.</p></div>
+	<div class="d-flex justify-content-center mt-5"><a href="AfficherCommandes">Consulter vos commandes.</a></div> 	
 
 
 </body>
